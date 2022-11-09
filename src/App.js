@@ -1,11 +1,21 @@
 import Topbar from './components/topbar/Topbar.jsx'
+import Intro from './components/intro/Intro.jsx'
+import Contact from './components/contact/Contact.jsx'
+import Portfolio from './components/portfolio/Portfolio.jsx'
+import Works from './components/works/Works.jsx'
+import Testimonials from './components/testimonials/Testimonials'
+import './app.scss'
 function App() {
   return (
     <div className="App">
-      hey I am hot man??????????????????????????
-      i love you
-      !!!!!!!!!
      <Topbar/>
+     <div className="section">
+      <Intro/>
+      <Portfolio/>
+      <Testimonials/>
+      <Works/>
+      <Contact/>
+     </div>
     </div>
   );
 }
