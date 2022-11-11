@@ -9,7 +9,7 @@ export default function Topbar({menuOpen,setMenuOpen}) {
         <a href="#intro" className='logo'>hT.</a>
         <div className="itemContainer">
         <Person className='icon'/>
-        <span>+012354689</span>
+        <span>08888888888</span>
        </div>
         <div className="itemContainer">
         <Mail className='icon'/>
