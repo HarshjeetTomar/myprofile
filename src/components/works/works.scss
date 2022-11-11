@@ -7,9 +7,10 @@
   .arrow{
     height: 50px;
     position: absolute;
-    background-color: lightgray;
+    background-color: gray;
     padding: 10px;
     border-radius: 50%;
+    opacity: 0.3;
     cursor: pointer;
     &.left{
         left: 100px;transform: rotateY(180deg);
